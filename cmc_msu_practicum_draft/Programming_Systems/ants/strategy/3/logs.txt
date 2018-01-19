@@ -1,0 +1,3 @@
+Has bugs:
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff6de590b in antlogic::GetAction(antlogic::Ant const&, antlogic::AntSensor (*) [3]) () from ./698.so

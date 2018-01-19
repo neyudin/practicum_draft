@@ -1,0 +1,5 @@
+This is the first test!
+mz09-2
+mz09-2.c
+res.txt
+test.txt

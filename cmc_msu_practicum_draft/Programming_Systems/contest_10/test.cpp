@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+int check(std::string &s) {
+    int abb = 0;
+    int notal = 0;
+    int size = s.size();
+    for (int i = 0; i < size; ++i) {
+        if (s[i] == '3' || s[i] == '4') {
+            if (abb == 1) {
+                notal = 1;
+                break;
+            }
+            continue;
+        }
+        if (s[i] == '1' || s[i] == '2') {
+            abb = 1;
+        } else {
+            notal = 1;
+            break;
+        }
+    }
+    return 1 - notal;
+}
+int main() {
+    int abb = 0, notal = 0;
+    std::string s;
+    while (std::cin >> s) {
+        check(s);
+    }
+}

@@ -1,0 +1,6 @@
+testmarks1.txt Aron 5 5 4 5 4 5 4 3 5
+testmarks1.txt Dietz 3 4 5 3 2 5 5 5 5 5
+testmarks1.txt Condor 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+testmarks1.txt Murrey 5 3 3 5 3 4 5 5 5 5
+testmarks.txt Obama 5 5 5 5
+testmarks.txt Rodham 5 5
